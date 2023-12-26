@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+}
+.form-width{
+    width: 40%;
+}
+.login-section ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.login-section ul li{
+    padding: 3px 15px;
+    border-radius: 5px;
+    
+}
+.login-section ul li:hover{
+    background-color:#820300;
+    color: white;
+}
+.login-section ul li a{
+    text-decoration: none;
+    
+
+}
+
+.navbar{
+    background-color:
+    #0766AD;
+    color: white;
+    padding: 20px 0px;
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.login{
+    height: 60%;
+    padding: 5% 20%;
+}
+.footer{
+    height: 30%;
+    background-color: #0766AD;
+}
+.login-header h5 a{
+    color: blue;
+}
+.login-header{
+    display:flex;
+    justify-content: space-between;
+}
+.reset-pass{
+    text-align: center;
+}
+.reset-pass a{
+    color: black;
+}
+.login-form{
+    background-color: antiquewhite;
+    padding: 16px;
+}
+.login-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+}
+.login-btn .btn-lg{
+    width: 15rem;
+}

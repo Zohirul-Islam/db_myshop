@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #fdfdfd;
+}
+a:hover{
+    color: none;
+}
+.form-width{
+    width: 40%;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.login-section ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+.login-section ul li{
+    padding: 3px 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+.login-section ul li:hover{
+    background-color:#0c0a0a;
+}
+.login-section ul li a{
+    text-decoration: none;
+    
+
+}
+.link{
+    color:#fdfdfd;
+    font-weight: 600;
+}
+.link:hover{
+    color:#fdfdfd;
+}
+
+.login-section ul li a i{
+    margin-right: 5px;
+}
+
+.navbar{
+    background-color:
+    #0766AD;
+    color: white;
+    padding: 20px 0px;
+}
